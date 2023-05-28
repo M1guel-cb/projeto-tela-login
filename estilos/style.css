@@ -17,9 +17,9 @@ body, html {
 }
 
 main {
+    position: relative;
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 div {
@@ -37,6 +37,8 @@ section#login {
     top: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
