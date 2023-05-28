@@ -111,7 +111,7 @@ p {
     border: 3px solid #5F2C82;
 }
 
-label {
+span {
     color: white;
     font-size: 2em;
     width: 40px;
@@ -121,11 +121,11 @@ label {
     background-color: #87d6d4;
     height: 100%;
     font-size: 1em;
-    width: calc(100% - 39px);
+    width: calc(100% - 38px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-10px);
+    transform: translate(36px ,-34px);
 }
 
 .campo > input:focus-within {
