@@ -31,13 +31,13 @@
     }
 
     div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
     body {
@@ -51,16 +51,23 @@
     }
 
     div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
     body {
         background-image: linear-gradient(to bottom, #5F2C82, #49a09d);
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    p {
+        font-size: 1.2em;
+        text-align: justify;
     }
 }
